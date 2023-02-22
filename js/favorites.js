@@ -47,6 +47,7 @@ export class FavoritesView extends Favorites {
 
             row.querySelector('.user img').src = `https://github.com/${user.login}.png`
             row.querySelector('.user img').alt = `${user.name} github profile image`
+            row.querySelector('.user a').href = `https://github.com/${user.login}`
             row.querySelector('.user p').textContent = user.name
             row.querySelector('.user span').textContent = user.login
             row.querySelector('.repos').textContent = user.public_repos
