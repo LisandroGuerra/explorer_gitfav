@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="assets/gitfav.gif">
+<img src="assets/git_fav.gif">
 
 
 you can see the project [here](https://lisandroguerra.github.io/explorer_gitfav/)
